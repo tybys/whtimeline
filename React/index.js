@@ -3,12 +3,7 @@ import {render} from 'react-dom';
 
 import App from './App';
 
-render(
-	<Provider store={store}>
-		<App/>
-	</Provider>,
-	document.getElementById('root')
-);
+render(<App/>, document.getElementById('root'));
 
 //module.hot.accept();
 // If you want your app to work offline and load faster, you can change
